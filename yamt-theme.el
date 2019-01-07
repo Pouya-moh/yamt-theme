@@ -53,9 +53,13 @@
        (var     "#F78C6C")
        (warning "#ff0000")
        (search  "#F8E71C")
-       (yBlack  "#000000"))
+       (yBlack  "#000000")
+       (linenum "#37474F"))
    (custom-theme-set-faces
    'yamt
+	;; etc, should be grouped in the future
+        `(linum ((,class (:background ,bg1 :foreground ,linenum))))
+        ;; rest
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment :italic t))))
