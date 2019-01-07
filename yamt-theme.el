@@ -52,7 +52,8 @@
        (type    "#FFCB6B")
        (var     "#F78C6C")
        (warning "#ff0000")
-       (search  "#F8E71C"))
+       (search  "#F8E71C")
+       (yBlack  "#000000"))
    (custom-theme-set-faces
    'yamt
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
