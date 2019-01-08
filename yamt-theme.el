@@ -60,6 +60,7 @@
    'yamt
 	;; etc, should be grouped in the future
         `(linum ((,class (:background ,bg1 :foreground ,linenum))))
+        `(highlight-numbers-number ((,class (:foreground ,const))))
         ;; rest
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
