@@ -54,6 +54,7 @@
        (warning "#ff0000")
        (search  "#F8E71C")
        (yBlack  "#000000")
+       (yCursor "#FFCC00")
        (linenum "#37474F"))
    (custom-theme-set-faces
    'yamt
@@ -77,7 +78,7 @@
         `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
 	`(hl-line ((,class (:background  ,yBlack))))
 	`(fringe ((,class (:background ,bg2 :foreground ,fg4))))
-	`(cursor ((,class (:background ,bg3))))
+	`(cursor ((,class (:background ,yCursor))))
         `(show-paren-match-face ((,class (:background ,warning))))
         `(isearch ((,class (:bold t :foreground ,yBlack :background ,search))))
         `(mode-line ((,class (:box (:line-width 1 :color nil) :bold t :foreground ,fg4 :background ,bg2))))
